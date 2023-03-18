@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piano</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <header>
+
+            <h1>Playable Piano</h1>
+
+            <div class="column volume-slider">
+                <label for="volume">Volume</label>
+                <input type="range" id="volume" min="0" max="1" value="0.5" step="any"/>
+            </div>
+
+            <div class="column checkbox">
+                <label for="checkbox">Show Keys</label>
+                <input type="checkbox" id="checkbox"/>
+            </div>
+
+        </header>
+
+        <ul class="piano-keys">
+            <li class="key white hide" data-key="a"><span>a</span></li>
+            <li class="key black hide" data-key="w"><span>w</span></li>
+            <li class="key white hide" data-key="s"><span>s</span></li>
+            <li class="key black hide" data-key="e"><span>e</span></li>
+            <li class="key white hide" data-key="d"><span>d</span></li>
+            <li class="key white hide" data-key="f"><span>f</span></li>
+            <li class="key black hide" data-key="t"><span>t</span></li>
+            <li class="key white hide" data-key="g"><span>g</span></li>
+            <li class="key black hide" data-key="y"><span>y</span></li>
+            <li class="key white hide" data-key="h"><span>h</span></li>
+            <li class="key black hide" data-key="u"><span>u</span></li>
+            <li class="key white hide" data-key="j"><span>j</span></li>
+            <li class="key white hide" data-key="k"><span>k</span></li>
+            <li class="key black hide" data-key="o"><span>o</span></li>
+            <li class="key white hide" data-key="l"><span>l</span></li>
+            <li class="key black hide" data-key="p"><span>p</span></li>
+            <li class="key white hide" data-key=";"><span>;</span></li>
+          </ul>
+
+    </div>
+
+    <div class="rotate">
+        <img src="https://t3.ftcdn.net/jpg/03/20/85/66/360_F_320856622_2rcJMcX2ktyC4Ayit8ifSM9JyeSIq18i.jpg" width="270px" alt="Rotate Your Phone">
+        <h3>For the better experince rotate your phone.</h3>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
